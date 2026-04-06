@@ -5,4 +5,13 @@ int main (){
     float temperatura, umidade;
     unsigned int estoque;
 
+    printf("Adicione a temperatura:\n");
+    scanf ("%f", &temperatura);
+
+    printf("Adicione a umidade:\n");
+    scanf("%f", &umidade);
+
+    printf("Adicione o estoque:\n");
+    scanf("%u", &estoque);
     
+}
